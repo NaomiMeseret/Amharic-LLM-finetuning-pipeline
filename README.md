@@ -93,29 +93,6 @@ python scripts/inference.py
   GPU constraints
 - Formal BLEU evaluation pending full training run
 
-## Project Structure
-
-amharic-llm-finetune/
-├── data/
-│   ├── raw/          # original downloaded datasets
-│   ├── processed/    # cleaned JSONL files
-│   └── eval/         # held-out test sets
-├── scripts/
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── evaluate.py
-│   ├── scrape.py
-│   └── inference.py
-├── configs/
-│   ├── qlora_config.yaml
-│   └── training_args.yaml
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_tokenizer_analysis.ipynb
-│   └── 03_results_analysis.ipynb
-├── requirements.txt
-└── .gitignore
-
 ## References
 
 - QLoRA paper: arxiv.org/abs/2305.14314
